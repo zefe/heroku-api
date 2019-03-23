@@ -7,7 +7,8 @@ app.use(express.json())
 
 app.all('/', (req, res) => {
     res.json({
-        "name": "zefe"
+        "name": "zefe",
+        "project":"My first app in heroku"
     })
     res.end()
 })
